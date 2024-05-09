@@ -17,7 +17,7 @@ const App = () => {
       <h1>
        
       </h1>
-      <ExerciseForm addExercise={addExercise} />
+      <ExercIseForm addExercise={addExercise} />
       <ExerciseList exercises={exercises} />
       <Navbar />
       <Footer />
