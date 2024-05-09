@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 const App = () => {
   const [exercises, setExercises] = useState([]);
 
@@ -19,6 +20,7 @@ const App = () => {
       <ExerciseList exercises={exercises} />
       <Navbar />
       <Footer />
+      
     </div>
   );
 };
