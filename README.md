@@ -1,5 +1,5 @@
 ## FITNESS TRACKER
-#authors
+# authors
 whitney
 ryan maiyo
 ayub hussein
