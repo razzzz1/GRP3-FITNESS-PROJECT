@@ -9,7 +9,7 @@ const App = () => {
   const [exercises, setExercises] = useState([]);
 
   const addExercise = (exercise) => {
-    setExercises([...exercises, exercise]);
+    setExeRcises([...exercises, exercise]);
   };
 
   return (
