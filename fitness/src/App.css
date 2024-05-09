@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; /* Changed font to Montserrat */
+  background-color: #f7f7f7; /* Lighter background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url('https://www.bookingpressplugin.com/wp-content/uploads/2024/03/The-Gem.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header Styles */
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; /* Changed primary color to white */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow with higher opacity */
+  text-transform: uppercase; /* Converted text to uppercase */
+  letter-spacing: 5px; /* Added letter spacing */
+}
+
+/* Form Styles */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px; /* Increased width for better usability */
+  background-color: teal; /* Added opacity to background color */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Added box shadow with higher opacity */
+  backdrop-filter: blur(10px); /* Added backdrop filter for a blur effect */
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: teal; /* Added background color */
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Added border */
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* List Styles */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.9); /* Added background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Additional Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding:20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Added background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
